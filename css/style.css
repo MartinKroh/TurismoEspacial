@@ -1,0 +1,473 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  }
+  
+  @font-face {
+    font-family: 'space';
+    src: url(../assets/fonts/space/space.ttf);
+  }
+  
+  body { 
+    width:100vw ;
+    height:150vh;
+    background-image: linear-gradient(to top,rgb(2, 2, 131) , rgb(0, 0, 0));
+  }
+  
+  
+  
+  /* ESTILOS DE HEADER */
+  
+  header{
+  
+    
+    height: 30vh;
+    width:100% ;
+  
+  }
+  
+  
+  .titulofuente{
+    font-size: large;
+  font-family: 'space';
+  color: antiquewhite;
+  }
+  
+  .titulofuente1{
+    font-size: x-large;
+  font-family: 'space';
+  color: antiquewhite;
+  text-align: center;
+  }
+  
+  .registrotrip{
+   
+      display: inline-block;
+      background-color: rgb(167, 167, 211);
+      padding: 5px;
+      margin-top: 5px;
+      border: 2px solid black;
+      border-radius: 15px;
+      color: rgb(34, 7, 83);
+      font-family: "space";
+     
+  }
+  
+  .logo {
+    float: left;
+    height: 150px;
+    width: 150px;
+    }
+  
+  nav ul {
+    text-align: center;
+    
+    }
+   
+    nav ul a li{
+    
+      display: inline-block;
+      background-color: rgb(27, 27, 95);
+      padding: 5px;
+      margin-top: 20px;
+      border: 2px solid black;
+      border-radius: 15px;
+      color: antiquewhite;
+      font-family: "space";
+    }
+  
+  
+   
+  /* ESTILOS DE MAIN */
+  
+  
+  .fondodepantalla{ 
+  
+    height: 100vh;
+  
+    /* height: 100vh;
+    background-image: url(../assets/images/Exploracion-Espacial.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover; */
+  
+  
+  }
+  
+  .destinosstyle { 
+  
+    background-color: rgb(2, 2, 131);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* .principalgrid { */
+  
+    /* background-color: rgb(2, 2, 131);
+    width: 100 vw;
+    height: 100 vh; 
+    display: grid;
+    grid-template-areas: "cabecera cabecera cabecera"
+                         "fondodepantalla fondodepantalla fondodepantalla"
+                         "pie pie pie";
+                         grid-template-columns: 3fr 5fr 3fr;
+                         grid-template-rows: 1fr 5fr 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+  
+  }
+  
+  .quienso-grid {
+  
+    background-color: rgb(2, 2, 131);
+    width: 100 vw;
+    height: 100 vh; 
+    display: grid;
+    grid-template-areas: "cabecera cabecera cabecera"
+                         "imgempizq bordetextoquien imgempder"
+                         "pie pie pie";
+  
+  grid-template-columns: 3fr auto 3fr;
+  grid-template-rows: 1fr auto 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+  
+    
+  }
+  
+  .cabecera {
+   
+     grid-area: cabecera;
+     display: flex;
+     flex-direction: column; 
+     justify-content: flex-start;
+     height: 180px;
+     text-align: center;
+     
+     
+  } */
+  
+  
+  .quienessomos {
+  
+  
+  align-content: center;
+  color: antiquewhite;
+  font-size: large;
+  font-family: "space";
+  border-style: double;
+  
+  
+  
+  }
+  
+  .imgempizq { 
+  
+    grid-area:imgempizq;
+    margin-bottom: 50 px;
+    grid-row: auto;
+    justify-self: start;
+    
+  }
+  
+  .imgempder { 
+  
+    grid-area: imgempder;
+    margin-bottom: 50 px;
+    grid-row: auto;
+  
+  }
+    
+  .bordetextoquien { 
+  
+   grid-area: bordetextoquien;
+   grid-row: auto;
+   justify-self: center;
+  }
+  
+  .reservizq { 
+  
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 50 px;
+  
+  }
+  
+  .reservder {
+  
+    display: flex;
+    flex-direction: column;
+    float: right;
+   
+  
+  }
+  
+  .nuestrasnaves{
+  
+    background-color: rgb(2, 2, 131);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  
+  
+  
+  }
+  
+  .naverazor { 
+  
+    width: 500 px;
+    height: 300px;
+    float: left;
+    
+    
+   
+  }
+  
+  .naverazor__info {
+  
+    font-size: xx-large;
+    font-family: "space";
+    color: antiquewhite;
+    margin-bottom: 20px;   
+    
+  }
+  
+  
+  
+  .naveenterprice { 
+  
+    width: 500 px;
+    height: 350px;
+    float:right;
+    margin-top: 50px;
+    
+   
+    
+   
+  }
+  
+  .naveenterprice__info {
+  
+    font-size: xx-large;
+    font-family: "space";
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+  
+  .navecapsule { 
+  
+    border: 10 px cornsilk;
+    padding: 15px;
+    margin: 500 px;
+    width: 600 px;
+    height: 400px;
+    float:left;
+   
+    
+   
+  }
+  
+  .navecapsule__info {
+  
+    font-size: xx-large;
+    font-family: "space";
+    color: antiquewhite;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+  }
+  
+  .navesaiyan { 
+   
+    margin-top: 100px;
+    float:right;
+   
+    
+   
+  }
+  
+  .navesaiyan__info {
+  
+    font-size: xx-large;
+    font-family: "space";
+    color: antiquewhite;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    
+  }
+  
+  .preciodestino {
+  
+    font-size: large;
+    font-family: "space";
+    color: antiquewhite;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  
+  
+  }
+  
+  
+  .promo1 {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50 px;
+  border-style: dashed;
+  border-color: aliceblue;
+  position: relative;
+  top: 20px;
+  left: 400px;
+  }
+  
+  .promo1:hover {
+  
+   background-color: rgb(71, 62, 62);
+  
+  }
+  
+  
+  .promo2 {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50 px;
+    border-style: dashed;
+    border-color: aliceblue;
+    position: relative;
+    top: 80px;
+    left: 400px;
+    }
+  
+    .promo2:hover {
+  
+      background-color: rgb(71, 62, 62);
+     
+     }
+  
+    .preciopaq1{
+      font-size: xx-large;
+      font-family: "space";
+      color: antiquewhite;
+      margin-top: 0px;
+      margin-bottom: 100px;
+      padding-top: 50px;
+  
+    }
+  
+    .preciopaq2{
+      font-size: xx-large;
+      font-family: "space";
+      color: antiquewhite;
+      margin-top: 0px;
+      margin-bottom: 100px;
+      padding-top: 30px;
+  
+    }
+    
+  
+  
+  
+  
+  
+  
+  /* ESTILO DE FOOTER */
+  
+  footer{
+  
+    
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+  
+  
+  }
+  
+  .pie {
+  
+    font-family: "space";
+    align-items: center;
+    color: antiquewhite;
+    margin-bottom: 5vh;
+    text-align: center;
+    grid-area: pie;
+  
+  
+  }
+  
+  /* @media only screen and (max-width: 1200px;) {
+  
+  
+  }
+    
+  @media only screen and (max-width: 768px;) {
+    
+    .principalgrid {
+  
+      grid-template-areas: "cabecera cabecera cabecera"
+                           "fondodepantalla fondodepantalla fondodepantalla"
+                           "pie pie pie";
+  
+    }
+    
+    .quienso-grid{
+  
+      grid-template-areas: "cabecera cabecera cabecera"
+                           "imgempizq bordetextoquien imgempder"
+                           "pie pie pie";
+  
+  grid-template-columns: 2fr auto 2fr;
+  grid-template-rows: 1fr auto 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 480px;) {
+    
+    .principalgrid {
+  
+      grid-template-areas: "cabecera cabecera"
+                           "fondodepantalla fondodepantalla"
+                           "pie pie";
+      
+      grid-template-columns: 2fr 2fr;
+      grid-template-rows: 1fr auto 1fr;
+  
+    }
+  
+    .quienso-grid{
+  
+  grid-template-areas: "cabecera"
+                       "imgempizq"
+                       "bordetextoquien "
+                       "pie";
+  
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around; */
+    /* }
+   */
+  
+  /* }  */
+  
+  
