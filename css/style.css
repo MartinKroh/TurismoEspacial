@@ -12,14 +12,20 @@
   
   body { 
     width:100vw ;
-    height:150vh;
+    height:100vh;
     background-image: linear-gradient(to top,rgb(2, 2, 131) , rgb(0, 0, 0));
   }
   
   
   
   /* ESTILOS DE HEADER */
-  
+
+  #headerindex {
+
+    height: 20vh;
+  }
+
+
   header{
   
     
@@ -28,6 +34,13 @@
   
   }
   
+  .nav-link {
+
+    font-family: 'space' !important;
+    color: white !important;
+    align-content: center ;
+
+  }
   
   .titulofuente{
     font-size: large;
@@ -35,6 +48,9 @@
   color: antiquewhite;
   }
   
+
+  
+
   .titulofuente1{
     font-size: x-large;
   font-family: 'space';
