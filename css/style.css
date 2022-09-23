@@ -11,8 +11,8 @@
   }
   
   body { 
-    width:100vw ;
-    height:100vh;
+    width:100 vw ;
+    height:auto;
     background-image: linear-gradient(to top,rgb(2, 2, 131) , rgb(0, 0, 0));
   }
   
@@ -41,7 +41,30 @@
     align-content: center ;
 
   }
+
+  .textnaves {
+    font-family: 'space' !important;
+    color: white !important;
+
+  }
+
+  .nombrenave {
+
+   
+   font-size:large;
+    transform: rotate(270deg);
+    height: auto;
+    width:auto;
+    text-orientation:sideways-right !important;
+    
+
+  }
   
+  .navedetail { 
+
+    border-style: ridge;
+    border-color: aliceblue;
+  }
   .titulofuente{
     font-size: large;
   font-family: 'space';
@@ -176,7 +199,7 @@
   
   align-content: center;
   color: antiquewhite;
-  font-size: large;
+  font-size:small;
   font-family: "space";
   border-style: double;
   
