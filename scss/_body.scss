@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+
+@font-face {
+  font-family: 'space';
+  src: url(../assets/fonts/space/space.ttf);
+ }
+
+ body { 
+    width:100 vw ;
+    height:auto;
+    background-image: linear-gradient(to top,rgb(2, 2, 131) , rgb(0, 0, 0));
+  }
+
+
+
+
+
+
+  
+
+  // FALTA ACOMODAR
+  
+ 
+  .titulofuente{
+    font-size: large;
+  font-family: 'space';
+  color: antiquewhite;
+  }
+  
+
+  
+
+  .titulofuente1{
+    font-size: x-large;
+  font-family: 'space';
+  color: antiquewhite;
+  text-align: center;
+  }
+  
+  .registrotrip{
+   
+      display: inline-block;
+      background-color: rgb(167, 167, 211);
+      padding: 5px;
+      margin-top: 5px;
+      border: 2px solid black;
+      border-radius: 15px;
+      color: rgb(34, 7, 83);
+      font-family: "space";
+     
+  }
+  
+  .logo {
+    float: left;
+    height: 150px;
+    width: 150px;
+    }
+  
+  nav ul {
+    text-align: center;
+    
+    }
+   
+    nav ul a li{
+    
+      display: inline-block;
+      background-color: rgb(27, 27, 95);
+      padding: 5px;
+      margin-top: 20px;
+      border: 2px solid black;
+      border-radius: 15px;
+      color: antiquewhite;
+      font-family: "space";
+    }
+  
+  
+   
+  /* ESTILOS DE MAIN */
+  
+  
+  .fondodepantalla{ 
+  
+    height: 100vh;
+  
+
+  }
+  
+  .destinosstyle { 
+  
+    background-color: rgb(2, 2, 131);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  
+ 
+  
+
+  
+  
+  
+
+  
+  .imgempizq { 
+  
+    grid-area:imgempizq;
+    margin-bottom: 50 px;
+    grid-row: auto;
+    justify-self: start;
+    
+  }
+  
+  .imgempder { 
+  
+    grid-area: imgempder;
+    margin-bottom: 50 px;
+    grid-row: auto;
+  
+  }
+    
+  .bordetextoquien { 
+  
+   grid-area: bordetextoquien;
+   grid-row: auto;
+   justify-self: center;
+  }
+  
+  .reservizq { 
+  
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 50 px;
+  
+  }
+  
+  .reservder {
+  
+    display: flex;
+    flex-direction: column;
+    float: right;
+   
+  
+  }
+  
+
+  
+  
+  
+
+  
+
+  
+  .preciodestino {
+  
+    font-size: large;
+    font-family: "space";
+    color: antiquewhite;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  
+  
+  }
+  
+  
+  .promo1 {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50 px;
+  border-style: dashed;
+  border-color: aliceblue;
+  position: relative;
+  top: 20px;
+  left: 400px;
+  }
+  
+  .promo1:hover {
+  
+   background-color: rgb(71, 62, 62);
+  
+  }
+  
+  
+  .promo2 {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50 px;
+    border-style: dashed;
+    border-color: aliceblue;
+    position: relative;
+    top: 80px;
+    left: 400px;
+    }
+  
+    .promo2:hover {
+  
+      background-color: rgb(71, 62, 62);
+     
+     }
+  
+    .preciopaq1{
+      font-size: xx-large;
+      font-family: "space";
+      color: antiquewhite;
+      margin-top: 0px;
+      margin-bottom: 100px;
+      padding-top: 50px;
+  
+    }
+  
+    .preciopaq2{
+      font-size: xx-large;
+      font-family: "space";
+      color: antiquewhite;
+      margin-top: 0px;
+      margin-bottom: 100px;
+      padding-top: 30px;
+  
+    }
